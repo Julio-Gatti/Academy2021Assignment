@@ -8,7 +8,7 @@ Ball.cs - The player. Gravity and jumpSpeed can be modified in the editor.
 
 Star.cs - Spawns in with an obstacle, and an offset to suit that obstacle.
 
-ColorSwitcher.cs - The colorSwicher. Tells the ball to change to a random color.
+ColorSwitcher.cs - Tells the ball to change to a random color.
 
 Obstacle.cs - Moves and/or rotates. Has attached child obstacleTriggers. Despawns if already passed by the player.
 
