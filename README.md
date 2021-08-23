@@ -7,9 +7,13 @@ Game.cs
 Handles the spawning of objects. Includes definitions for the Kolor enum, and a dictionary for converting the Kolor enum to an actual RGB value. Handles the camera movement. Holds the players stars.
 
 
+
+
 Ball.cs
 
 The player.
+
+
 
 
 Star.cs
@@ -17,9 +21,13 @@ Star.cs
 The star. Spawns in with an obstacle, and an offset to suit that obstacle.
 
 
+
+
 ColorSwitcher.cs
 
 The colorSwicher. Tells the ball to change to a random color.
+
+
 
 
 Obstacle.cs
@@ -27,9 +35,13 @@ Obstacle.cs
 Moves and/or rotates. Has attached child obstacleTriggers. Despawns if already passed by the player.
 
 
+
+
 ObstacleTrigger.cs
 
 The actual trigger that the ball hits. Parented to an obstacle.
+
+
 
 
 Future ideas:
